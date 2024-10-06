@@ -11,14 +11,14 @@ function App() {
           onClick={() => dispatch(increment())}
           className="bg-blue-500 border-2 p-5"
         >
-          Increment
+          Increment button
         </button>
         <h1 className="p-5">{count}</h1>
         <button
           onClick={() => dispatch(decrement())}
           className="bg-red-500 border-2 p-5"
         >
-          Decrement
+          Decrement button
         </button>
       </div>
     </div>
